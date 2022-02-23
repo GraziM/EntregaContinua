@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  :root {
+    --primary-color: #0059b3;
+    --primary-color-hover: #e600ac;
+    --secondary-color: #0059b3;
+    --background-color: #131313;
+    --box-color: #242424;
+  }
+  
+  ::selection {
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
+  
+  html {
+    background-color: var(--background-color);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: #fff;
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container > hr {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 310px;
+    height: 0.5%;
+    background-color: var(--primary-color);
+    border: none;
+  }
+  
+  .name {
+    color: #fff;
+    font-size: 45px;
+  }
+
+  .list {
+    color: #fff;
+    font-size: 30px;
+  }
